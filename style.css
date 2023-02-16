@@ -109,7 +109,7 @@ body{
       @media only screen and (max-width: 600px) {
         h1 {
         position: absolute;
-        top: 35%;
+        top: 42%;
           font-size: 300px;
           writing-mode: vertical-rl;
           transform: rotate(180deg);
