@@ -91,11 +91,26 @@ body{
         z-index: -1;
       }
 
+
+      #title {
+        opacity: 0;
+        transform: translateX(-150%);
+        animation: slide-in 2s forwards;
+      }
+      
+      @keyframes slide-in {
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+      
+
       @media only screen and (max-width: 600px) {
         h1 {
         position: absolute;
-        top: 85%;
-          font-size: 100px;
+        top: 35%;
+          font-size: 300px;
           writing-mode: vertical-rl;
           transform: rotate(180deg);
           white-space: nowrap;
