@@ -112,7 +112,7 @@ body{
         h1 {
         position: absolute;
         top: 42%;
-          font-size: 300px;
+          font-size: 200px;
           writing-mode: vertical-rl;
           transform: rotate(180deg);
           white-space: nowrap;
