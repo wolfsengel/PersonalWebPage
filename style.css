@@ -104,6 +104,9 @@ body{
         }
       }
       
+      span{
+        color: bisque;
+      }
 
       @media only screen and (max-width: 750px) {
         h1 {
