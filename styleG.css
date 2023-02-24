@@ -1,0 +1,69 @@
+body{
+    background: black;
+}
+#cabecero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+  }
+a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: bisque;
+}
+a:hover{
+    color: #fff;
+}
+  #cabecero h1 {
+    margin: 0;
+    color: blanchedalmond;
+    font-family: sans-serif;
+    font-size:50px;
+  }
+
+  #buscador {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
+  #buscar {
+    background-color: bisque;
+    margin-left: 10px;
+    width: 75px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+  }
+  #buscar:hover{
+    color: bisque;
+    background-color: black;
+  }
+
+  #input-busqueda {
+    width: 500px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+  }
+
+  img{
+    margin-top: 50px;
+    width: 75vh;
+    display: none;
+  }
+  .imagenes{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  p{
+    display: none;
+    color: bisque;
+    font-family: sans-serif;
+  }
