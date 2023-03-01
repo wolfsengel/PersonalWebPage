@@ -55,7 +55,7 @@ a:hover{
   img{
     margin-top: 50px;
     width: 75vh;
-    display: none;
+    display: block;
   }
   .imagenes{
     align-items: center;
@@ -63,7 +63,7 @@ a:hover{
     flex-direction: column;
   }
   p{
-    display: none;
+    display: block;
     color: bisque;
     font-family: sans-serif;
   }
