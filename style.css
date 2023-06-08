@@ -82,6 +82,9 @@ body{
         }
 
       }
+      h3,p {
+        user-select: none;
+      }
       
 
 

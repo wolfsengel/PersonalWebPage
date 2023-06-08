@@ -70,3 +70,7 @@ a:hover{
     color: bisque;
     font-family: sans-serif;
   }
+  h1 {
+    user-select: none;
+  }
+  
