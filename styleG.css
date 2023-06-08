@@ -51,7 +51,10 @@ a:hover{
     border: none;
     margin-right: 10px;
   }
-
+  img {
+    pointer-events: none;
+    user-select: none;
+  }  
   img{
     margin-top: 50px;
     width: 75vh;
